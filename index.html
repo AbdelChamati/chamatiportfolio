@@ -1,0 +1,327 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Abdel – RPA Developer & Business Analyst specializing in UiPath, Power Automate, web technologies, and cloud basics (AWS & Azure)."
+    />
+
+    <meta
+      name="keywords"
+      content="RPA Developer, Business Analyst, UiPath, Power Automate, Automation, AWS, Azure, HTML, CSS, JavaScript"
+    />
+
+    <meta name="author" content="Abdel" />
+
+    <!-- Open Graph -->
+    <meta
+      property="og:title"
+      content="Abdel | RPA Developer & Business Analyst"
+    />
+    <meta
+      property="og:description"
+      content="Automation specialist delivering scalable RPA solutions with UiPath and Power Automate."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="preview.png" />
+
+    <title>Abdel | RPA Developer & Business Analyst</title>
+
+    <!-- Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="icon" type="image/png" href="/Media/logo.png" />
+
+    <!-- Google Font -->
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <a href="#home" class="logo">
+          <img src="./Media/logo.png" alt="Abdelilah Chamati Logo" />
+          <span class="logo-initials">A. C.</span>
+        </a>
+
+        <div class="nav-right">
+          <button
+            id="themeToggle"
+            class="theme-toggle"
+            aria-label="Toggle dark mode"
+          >
+            🌙
+          </button>
+
+          <div
+            class="hamburger"
+            id="hamburger"
+            aria-label="Open menu"
+            role="button"
+            tabindex="0"
+          >
+            <i class="fas fa-bars"></i>
+          </div>
+        </div>
+
+        <div class="nav-links" id="navLinks">
+          <a href="#home" class="bold-link">Home</a>
+          <a href="#about" class="bold-link">About</a>
+          <a href="#skills" class="bold-link">Skills</a>
+          <a href="#contact" class="bold-link">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <!-- <section id="home">
+        <div class="hero-actions">
+            <h1>RPA Developer & <span>Business Analyst</span></h1>
+            <p>
+                I design and deliver intelligent automation solutions using UiPath and Power Automate, transforming
+                business processes into efficient, scalable workflows.
+            </p>
+
+            <div class="socials">
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-xing"></i></a>
+            </div>
+            <a href="cv.pdf" class="btn-primary" download>Download CV</a>
+        </div>
+
+
+        <div class="hero-img">
+            <img src="./Media/Abdel.png" loading="lazy" alt="Profile picture">
+        </div>
+    </section> -->
+    <section id="home">
+      <div class="hero-text">
+        <!-- <h1 class="hero-title">RPA Developer & <span id="typedTitle">Business Analyst</span></h1> -->
+
+        <h1 class="hero-title" id="heroTitle">
+          RPA Developer & <span>Business Analyst</span>
+        </h1>
+
+        <p>
+          I help businesses save time and cut costs by turning complex processes
+          into smart, automated workflows with RPA, AI, and cloud technologies.
+        </p>
+
+        <!-- Button -->
+
+        <div class="cv-download">
+          <button class="btn-primary" id="cvBtn">
+            Download CV EN-DE<i class="fas fa-chevron-down"></i>
+          </button>
+          <div class="cv-options" id="cvOptions">
+            <a href="./PDF/CV - Abdelilah Chamati_2026_EN.pdf" download
+              >🇬🇧 English</a
+            >
+            <a href="./PDF/Lebenslauf-Abdelilah_Chamati-2026_DE.pdf" download
+              >🇩🇪 German</a
+            >
+          </div>
+        </div>
+
+        <!-- <a href="./CV - Abdelilah Chamati_2026.pdf" class="btn-primary hero-btn" download>Download CV</a> -->
+
+        <div class="socials">
+          <a
+            href="https://www.linkedin.com/in/a-chamati/"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a
+            href="https://github.com/AbdelChamati"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a
+            href="https://www.xing.com/profile/Abdelilah_Chamati/web_profiles"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><i class="fab fa-xing"></i
+          ></a>
+        </div>
+      </div>
+
+      <div class="hero-img">
+        <img
+          src="./Media/Abdel_Profile.png"
+          loading="lazy"
+          alt="Profile picture"
+        />
+      </div>
+    </section>
+
+    <section id="about" class="reveal">
+      <h2>About Me</h2>
+      <p>
+        I bridge the gap between business and technology by analyzing processes,
+        identifying automation opportunities, and implementing robust RPA
+        solutions. I also have foundational web development experience with
+        <strong>HTML, CSS, and JavaScript</strong>, and familiarity with cloud
+        platforms such as <strong>AWS (basic services)</strong> and
+        <strong>Microsoft Azure</strong>. I enjoy creating efficient, scalable
+        solutions while continuously expanding my technical skills to support
+        business needs.
+      </p>
+    </section>
+
+    <section id="skills" class="skills reveal">
+      <h2>Core Expertise</h2>
+
+      <div class="skills-grid">
+        <a href="#" class="skill-card">
+          <i class="fas fa-robot"></i>
+          <h3>UiPath</h3>
+          <p>REFramework, Orchestrator, attended & unattended bots.</p>
+        </a>
+
+        <a href="#" class="skill-card">
+          <i class="fas fa-bolt"></i>
+          <h3>Power Automate</h3>
+          <p>Cloud & desktop flows, Microsoft ecosystem integrations.</p>
+        </a>
+
+        <a href="#" class="skill-card">
+          <i class="fas fa-diagram-project"></i>
+          <h3>Business Analysis</h3>
+          <p>Requirements, process mapping, stakeholder communication.</p>
+        </a>
+
+        <a href="#" class="skill-card">
+          <i class="fas fa-industry"></i>
+          <h3>Industries</h3>
+          <p>Banking, Insurance, Logistics automation projects.</p>
+        </a>
+      </div>
+    </section>
+
+    <section id="projects" class="projects reveal">
+      <h2>Selected Automation Projects</h2>
+
+      <div class="skills-grid">
+        <a href="#" class="skill-card">
+          <h3>Banking – Loan Processing</h3>
+          <p>
+            Automated end-to-end loan validation and data entry using UiPath,
+            reducing processing time and minimizing manual errors.
+          </p>
+        </a>
+
+        <a href="#" class="skill-card">
+          <h3>Insurance – Claims Automation</h3>
+          <p>
+            Built Power Automate flows to extract, validate and route claims
+            documents across internal systems.
+          </p>
+        </a>
+
+        <a href="#" class="skill-card">
+          <h3>Logistics – Reporting & Tracking</h3>
+          <p>
+            Automated shipment reporting and KPI dashboards by integrating
+            multiple data sources.
+          </p>
+        </a>
+      </div>
+    </section>
+
+    <section id="contact" class="contact reveal">
+      <h2>Contact Me</h2>
+      <p class="contact-text">
+        Have a question, project idea, or collaboration in mind? Feel free to
+        reach out, I’ll get back to you as soon as possible.
+      </p>
+
+      <form id="contactForm" class="contact-form">
+        <div class="form-group">
+          <input type="text" name="name" placeholder="Your Name" required />
+        </div>
+
+        <div class="form-group">
+          <input type="email" name="email" placeholder="Your Email" required />
+        </div>
+
+        <div class="form-group">
+          <textarea
+            name="message"
+            placeholder="Your Message"
+            rows="5"
+            required
+          ></textarea>
+        </div>
+
+        <button type="submit" class="btn-primary">Send Message</button>
+
+        <p id="formStatus" class="form-status"></p>
+        <input
+          type="text"
+          name="website"
+          class="honeypot"
+          tabindex="-1"
+          autocomplete="off"
+        />
+      </form>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-info">
+          <div class="footer-item">
+            <i class="fas fa-phone"></i>
+            <span>+00 123 456 789</span>
+          </div>
+
+          <div class="footer-item">
+            <i class="fas fa-location-dot"></i>
+            <span>Klosterlechfeld, Germany</span>
+          </div>
+        </div>
+
+        <div class="footer-socials">
+          <a
+            href="https://www.linkedin.com/in/a-chamati/"
+            aria-label="LinkedIn"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a
+            href="https://github.com/AbdelChamati"
+            aria-label="GitHub"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a
+            href="https://www.xing.com/profile/Abdelilah_Chamati/web_profiles"
+            aria-label="Xing"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><i class="fab fa-xing"></i
+          ></a>
+        </div>
+      </div>
+
+      <p class="footer-copy">
+        © 2026 Abdelilah Chamati · RPA Developer & Business Analyst
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  </body>
+</html>
