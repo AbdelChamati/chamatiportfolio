@@ -59,6 +59,25 @@ if (cvBtn && cvDownload) {
 
 /* ================================================ */
 
+  // Show message when clicking EN/DE download links
+const cvLinks = document.querySelectorAll(".cv-link");
+const cvMessage = document.getElementById("cvMessage");
+
+cvLinks.forEach(link => {
+  link.addEventListener("click", () => {
+    if (!cvMessage) return;
+
+    cvMessage.style.display = "block";
+
+    // Optional auto-hide
+    setTimeout(() => {
+      cvMessage.style.display = "none";
+    }, 4000);
+  });
+});
+
+  // ==================================
+
 hamburger.addEventListener("click", () => {
     navLinks.classList.toggle("active");
     hamburger.classList.toggle("active");
