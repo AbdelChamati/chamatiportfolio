@@ -13,6 +13,8 @@ const themeToggle = document.getElementById("themeToggle");
 const cvBtn = document.getElementById('cvBtn');
 const cvDownload = document.querySelector('.cv-download');
 const heroTitle = document.getElementById("heroTitle");
+const cvLinks = document.querySelectorAll(".cv-link");
+const cvMessage = document.getElementById("cvMessage");  
 
 /* Animation Title */
 
@@ -60,8 +62,7 @@ if (cvBtn && cvDownload) {
 /* ================================================ */
 
   // Show message when clicking EN/DE download links
-const cvLinks = document.querySelectorAll(".cv-link");
-const cvMessage = document.getElementById("cvMessage");
+
 
 cvLinks.forEach(link => {
   link.addEventListener("click", () => {
